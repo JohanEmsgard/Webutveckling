@@ -1,9 +1,9 @@
-document.querySelector("#supersonic").addEventListener("change", changetransform)
+document.querySelector("#supersonic").addEventListener("change", changesupersonic);
 
-function transform(event) {
+function changesupersonic(event) {
     if(event.target.value === "Chaosemeralds") {
-        let transform = document.querySelector(".transform");
-        transform.Changetransform.setAttribute("src", "./SFSBSuperSonic.webp");
+        let changesupersonic = document.querySelector(".transform");
+        changesupersonic.setAttribute("src", "./SFSBSuperSonic.webp");
 
     }
 }
